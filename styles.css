@@ -1,0 +1,111 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: blue;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-contact {
+  margin-top: 10px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  color: white;
+}
+
+.header-name {
+  margin: 10px 20px;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+.menu {
+  width: 100%;
+  background-color: lightblue;
+  color: white;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 10px;
+  padding-left: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+.hover:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+
+.footerSection {
+  max-width: 1719px;
+  height: 200px;
+  background-color: blue;
+  display: flex;
+}
+
+.footerLeft {
+  display: flex;
+  width: 50%;
+  margin-left: 65px;
+  justify-content: space-evenly;
+}
+
+.footerInfo {
+  width: 252px;
+  height: 194px;
+  padding-top: 40px;
+}
+
+.footerInfoHeading {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+
+.footerContent {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.footerRight {
+  display: flex;
+  width: 50%;
+  margin-right: 30px;
+  justify-content: space-evenly;
+  line-height: 1;
+}
+
+.footerContent p:hover {
+  text-decoration: underline;
+}
+
+.footerExtras span:hover {
+  text-decoration: underline;
+}
+
+.hover1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
